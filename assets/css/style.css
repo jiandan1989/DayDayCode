@@ -1,3 +1,30 @@
+/* style */
+:root {
+  --sidebar-nav-link-text-decoration: none;
+}
+
+/* size */
+:root {
+  --code-font-size: 13px;
+  --sidebar-nav-indent: 12px; /* sidebar nav */
+}
+
+/* color */
+:root {
+  --link-color: #0ae;
+  --selection-color: purple;
+  --text-color-base: #f47d31;
+  --theme-color-dark: #b20710;
+  --text-color-tertiary: #81818e;
+  --copycode-background: #2196f3;
+  --text-color-secondary: #646473;
+  --sidebar-nav-link-border-color--hover: #f47d31;
+}
+
+::selection {
+  background: var(--selection-color);
+}
+
 .markdown-section figure,
 .markdown-section p,
 .markdown-section ol,
@@ -10,25 +37,13 @@
   padding: 12px;
 }
 
-:root {
-  --copycode-background: #2196f3;
-  --code-font-size: 13px;
-  --link-color: #0ae;
-  --sidebar-nav-link-border-color--hover: #f47d31;
-  --sidebar-nav-link-text-decoration: none;
-}
-
 .sidebar-nav > :last-child {
   margin: 1em;
 }
 
-:root {
-  --theme-color: #;
-  --theme-color-dark: #b20710;
-
-  --text-color-base: #2e2e46;
-  --text-color-secondary: #646473;
-  --text-color-tertiary: #81818e;
+.sidebar-nav li > a[href^='#/']:not([href*='?id=']):only-child {
+  background-image: none;
+  padding-left: 1px;
 }
 
 body {
