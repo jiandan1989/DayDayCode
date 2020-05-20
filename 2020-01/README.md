@@ -1,8 +1,6 @@
-## 2020-01 {docsify-ignore}
-
 ### 两数之和
 
-✅ [两数之和](https://leetcode-cn.com/problems/two-sum/): 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。 你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。
+✅ [1](https://leetcode-cn.com/problems/two-sum/): 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。 你可以假设每种输入只会对应一个答案。但是，你不能重复利用这个数组中同样的元素。
 
 ```js
 const nums = [2, 7, 11, 15],
@@ -12,15 +10,11 @@ const nums = [2, 7, 11, 15],
 // 所以返回 [0, 1]
 ```
 
-##### 解法
-
-> 可以有很多种解法
-
 [](twoSum.ts ':include :type=code')
 
 ### 数字反转
 
-✅ [数字反转](https://leetcode-cn.com/problems/reverse-integer/): 给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转
+✅ [7](https://leetcode-cn.com/problems/reverse-integer/): 给出一个 32 位的有符号整数，你需要将这个整数中每位上的数字进行反转
 
 ```js
 输入: 123;
@@ -34,7 +28,7 @@ const nums = [2, 7, 11, 15],
 
 ### 回文数
 
-✅ [回文数](https://leetcode-cn.com/problems/palindrome-number/): 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
+✅ [9](https://leetcode-cn.com/problems/palindrome-number/): 判断一个整数是否是回文数。回文数是指正序（从左向右）和倒序（从右向左）读都是一样的整数。
 
 ```js
 // 示例
@@ -46,7 +40,7 @@ const nums = [2, 7, 11, 15],
 
 ### 罗马数字
 
-✅ [罗马数字](https://leetcode-cn.com/problems/roman-to-integer/): 罗马数字包含以下七种字符: `I: 1`, `V: 5`, `X: 10` `L: 50`, `C: 100`, `D: 500` 和 `M: 1000`
+✅ [13](https://leetcode-cn.com/problems/roman-to-integer/): 罗马数字包含以下七种字符: `I: 1`, `V: 5`, `X: 10` `L: 50`, `C: 100`, `D: 500` 和 `M: 1000`
 
 - 例如， 罗马数字 2 写做  II ，即为两个并列的 1。12 写做  XII ，即为  X + II 。 27 写做   XXVII, 即为  XX + V + II 。
 
